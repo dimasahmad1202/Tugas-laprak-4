@@ -1,0 +1,14 @@
+try:
+    ukuran1 = int(input("Masukkan ukuran benda 1: "))
+    ukuran2 = int(input("Masukkan ukuran benda 2: "))
+    ukuran3 = int(input("Masukkan ukuran benda 3: "))
+
+    if ukuran1 == ukuran2 == ukuran3:
+        print("3 benda sama")
+    elif ukuran1 == ukuran2 or ukuran1 == ukuran3 or ukuran2 == ukuran3:
+        print("2 benda sama")
+    else:
+        print("Tidak ada yang sama")
+
+except:
+    print("Input tidak benar Harap masukkan angka")
